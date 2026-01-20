@@ -24,6 +24,7 @@
     font-size: 16px;
     font-weight: 500;
 }
+
 .nav-section ul li a:hover {
     color: var(--pink-color);
 }
@@ -32,21 +33,42 @@
 
 .btn {
     background: linear-gradient(15deg, var(--yellow-color), var(--blue-color), var(--pink-color));
-    padding: 10px 20px ;
+    padding: 10px 20px;
     border: 1px solid #1A0B2E;
 }
+
 .btn:hover {
     background: transparent;
     border: 1px solid var(--green-color);
     color: var(--green-color);
-    
+
 }
+
+hr {
+    border: 1px solid #553e7246;
+    margin: 20px 0px;
+}
+
 
 /* hero-section  */
 
-.hero-section {
+/* .hero-section {
     background-image: url("/assets/hero-bg.png");
-    background-color: red;
-    min-height: 100px;
-    min-width: 300px;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+} */
+
+/* about-section */
+
+.about-review .item h3{
+    color: var(--green-color);
+    font-size: 48px;
+    font-weight: bold;
+}
+.about-review .item p{
+    color: var(--paragraph-color);
+    font-size: 16px;
 }
