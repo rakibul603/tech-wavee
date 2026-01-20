@@ -72,3 +72,27 @@ hr {
     color: var(--paragraph-color);
     font-size: 16px;
 }
+
+
+.host-cart .host-image {
+    width: 300px ;
+    height: 300px;
+}
+
+
+.host-cart .host-image  img{
+    width: 100%;
+}
+
+
+.host-social-link .social-link-item {
+    width: 30px;
+    border: 1px solid white;
+    padding: 7px;
+    border-radius: 100%;
+    
+}
+
+.host-social-link .social-link-item img {
+    width: 100%;
+}
