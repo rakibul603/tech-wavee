@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TechWave</title>
 
+    <!-- font-awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- tailwindcss link  -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
@@ -13,7 +17,31 @@
 </head>
 
 <body class="inter-font">
-    <h1>tech-wave</h1>
+    <header class="bg-[#1A0B2E]  py-4">
+        <div class="header-container container m-auto">
+            <section class="nav-section px-4 mx:px-0">
+                <nav class="flex justify-between items-center">
+                    <div class="logo">
+                        <img src="./assets/logo.png" alt="">
+                    </div>
+                    <ul class="flex gap-4 ">
+                        <li class="hidden sm:block"><a href="">About</a></li>
+                        <li class="hidden sm:block"><a href="">Episodes </a></li>
+                        <li class="hidden sm:block"><a href="">Host</a></li>
+                    </ul>
+                    <button class="btn rounded-full text-white hidden sm:block">
+                        Subscribe <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                    <div class="sm:hidden">
+                        <img src="./assets/hamburger-menu.png" alt="">
+                    </div>
+                </nav>
+            </section>
+            <hr>
+            <section class="hero-seciton"></section>
+
+        </div>
+    </header>
 </body>
 
 </html>

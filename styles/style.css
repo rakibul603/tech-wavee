@@ -1,10 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 
-
 .inter-font {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+:root {
+    --text-color: rgba(255, 255, 255, 1);
+    --paragraph-color: rgb(187, 185, 185);
+    --green-color: rgba(0, 255, 136, 1);
+    --bg-color: #1A0B2E;
+    --yellow-color: #F7E93F;
+    --blue-color: #9100F8;
+    --pink-color: #FB09B4;
+}
+
+
+.nav-section ul li a {
+    color: var(--text-color);
+    font-size: 16px;
+    font-weight: 500;
+}
+.nav-section ul li a:hover {
+    color: var(--pink-color);
+}
+
+
+
+.btn {
+    background: linear-gradient(15deg, var(--yellow-color), var(--blue-color), var(--pink-color));
+    padding: 10px 20px ;
+    border: 1px solid #1A0B2E;
+}
+.btn:hover {
+    background: transparent;
+    border: 1px solid var(--green-color);
+    color: var(--green-color);
+    
 }
