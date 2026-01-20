@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 .p {
-    color: text-[#ffffff77] ;
+    color: text-[#ffffff77];
 }
 
 .inter-font {
@@ -105,4 +105,11 @@ hr {
 
 .host-social-link .social-link-item img {
     width: 100%;
+}
+
+.footer-social-link-item {
+    width: 30px;
+    padding: 7px;
+    border-radius: 100%;
+    display: flex;
 }
