@@ -142,9 +142,19 @@
 
 }
 
+
 .host-social-link .social-link-item img {
     width: 100%;
+    cursor: pointer;
 }
+
+
+.host-social-link .social-link-item img:hover {
+    filter: grayscale(100%);
+
+}
+
+
 
 
 .footer-container {
