@@ -107,9 +107,30 @@ hr {
     width: 100%;
 }
 
-.footer-social-link-item {
-    width: 30px;
-    padding: 7px;
-    border-radius: 100%;
+
+.footer-container {
+    text-align: center;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+
+}
+
+
+.footer-icon {
+    margin-top: 30px;
+}
+
+.footer-link-item {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 10px;
+    margin-bottom: 10px;
+
+}
+.footer-link-item img {
+    width: 10%;
+    height: 90%;
 }
