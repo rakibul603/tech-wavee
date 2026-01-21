@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-.p {
-    color: text-[#ffffff77];
-}
-
 .inter-font {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -38,6 +34,7 @@
     background: linear-gradient(15deg, var(--yellow-color), var(--blue-color), var(--pink-color));
     padding: 10px 20px;
     border: 1px solid #1A0B2E;
+    cursor: pointer;
 }
 
 .btn:hover {
@@ -45,6 +42,21 @@
     border: 1px solid var(--green-color);
     color: var(--green-color);
 
+}
+
+.btn-green {
+    background: transparent;
+    border: 1px solid var(--green-color);
+    color: var(--green-color);
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.btn-green:hover {
+    background: linear-gradient(15deg, var(--yellow-color), var(--blue-color), var(--pink-color));
+    padding: 10px 20px;
+    border: 1px solid #1A0B2E;
+    color: #ffffff;
 }
 
 hr {
@@ -56,12 +68,27 @@ hr {
 /* hero-section  */
 
 .hero-section {
-    background-image: url("/assets/hero-bg.png");
-    height: 100vh;
+    /* height: 100vh;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: cover; */
 
+}
+
+
+
+.hero-section .hero-image {
+    width: 300px;
+}
+
+.hero-section .hero-image img {
+    width: 100%;
+    position: relative;
+    bottom: 20px;
+}
+
+.here-context {
+    text-align: center;
 }
 
 /* about-section */
@@ -125,11 +152,12 @@ hr {
 .footer-link-item {
     display: flex;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
     gap: 10px;
     margin-bottom: 10px;
 
 }
+
 .footer-link-item img {
     width: 10%;
     height: 90%;
